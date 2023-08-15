@@ -1,0 +1,256 @@
+@media (min-width:540px) and (max-width:991px) {
+.card {
+  min-width: 540px;
+  padding: 48px 30px 0 30px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.card-info__logo {
+  margin-bottom: 32px;
+  width: 476px;
+  height: 52px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+}
+
+.card-info__title, .products__title, .feedback__title {
+  margin-bottom: 6px;
+}
+
+.card-info__description:last-child {
+  margin-bottom: 28px;
+}
+
+.navigation { 
+  margin-bottom: 32px;
+  padding: 0 11px;
+  justify-content: center;
+}
+
+.feedback-form {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form__message {
+  width: 476px;
+}
+
+.form__submit {
+  margin-bottom: 32px;
+}
+}
+
+@media (min-width:991px) and (max-width:1000px) {
+
+  .card {
+    position: relative;
+    min-width: 991px;
+    padding: 48px 396px 20px 32px;
+  }
+
+  .card-info__logo {
+    margin-bottom: 24px;
+    width: 540px;
+    height: 60px;;
+  }
+
+  .card-info__title, .products__title, .feedback__title {
+    margin-bottom: 12px;
+  }
+
+  .card-info__description:last-child {
+    margin-bottom: 9px;
+  }
+
+  .navigation { 
+    margin-bottom: 24px;
+  }
+
+  .feedback-form {
+    flex-wrap: wrap;
+  }
+
+  .form__input {
+    width: 276px;
+  }
+
+  .form__message {
+    width: 442px;
+  }
+
+  .form__submit {
+    width: 110px;
+    height: 68px;
+    padding: 4px 4px;
+    text-align: center;
+  }
+
+  .image__man {
+    position: absolute;
+    right: 8px;
+    bottom: 4px;
+    width: 356px;
+    height: 606px;
+  }
+}
+
+/*@media (min-width:1000px) and (max-width:1100px) {
+  
+  .card {
+    position: relative;
+    max-width: 1100px;
+    padding: 48px 396px 20px 32px;
+    background-image: linear-gradient(106deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.00) 100%), url('../images/backgroundfull.png');
+    background-size: cover;
+    background-position: center;
+  }  
+}*/
+
+@media (min-width:1100px) and (max-width:1920px) {
+  .card {
+    position: relative;
+    min-width: 1920px;
+    padding: 114px 698px 26px 142px;
+    background-image: linear-gradient(106deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.00) 100%), url('../images/backgroundfull.png');
+  }  
+
+  .card-info__logo {
+    margin-bottom: 52px;
+    width: 1090px;
+    height:120px;;
+  }
+
+  .card-info__title, .products__title, .feedback__title {
+    margin-bottom: 26px;
+    font-size: 32px;
+    letter-spacing: 3.2px;
+  }
+
+  .card-info__description {
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 2px;
+  }
+
+  .card-info__description:last-child {
+    margin-bottom: 64px;
+  }
+
+  .navigation { 
+    margin-bottom: 64px;
+  }
+
+  .feedback-form {
+    flex-wrap: wrap;
+    padding: 0 283px 0 0;
+  }
+
+  .form__input {
+    width: 292px;
+  }
+
+  .form__message {
+    width: 596px;
+    height: 108px;
+  }
+
+  .form__submit {
+    width: 200px;
+    height: 48px;
+    padding: 4px 4px;
+    text-align: center;
+  }
+
+  .image__man {
+    position: absolute;
+    right: 63px;
+    bottom: 0px;
+    width: 532px;
+    height: 905px;
+  }
+}
+
+@media screen and  (min-width:1920px) {
+  .card {
+    position: relative;
+    min-width: 1920px;
+    padding: 114px 698px 26px 142px;
+    background-image: linear-gradient(106deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.00) 100%), url('../images/backgroundfull.png');
+  }  
+
+  .card-info__logo {
+    margin-bottom: 52px;
+    width: 1090px;
+    height:120px;;
+  }
+
+  .card-info__title, .products__title, .feedback__title {
+    margin-bottom: 26px;
+    font-size: 32px;
+    letter-spacing: 3.2px;
+  }
+
+  .card-info__description {
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 2px;
+  }
+
+  .card-info__description:last-child {
+    margin-bottom: 52px;
+  }
+
+  .navigation { 
+    margin-bottom: 64px;
+  }
+
+  .feedback-form {
+    flex-wrap: wrap;
+    padding: 0 283px 0 0;
+  }
+
+  .form__input {
+    width: 292px;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+
+  .labelphone, .labelemail {
+    font-size: 18px;
+    letter-spacing: 1.8px;
+  }
+
+  .form__input:focus ~ label {
+    font-size: 14px;
+  }
+
+  .form__message {
+    width: 596px;
+    height: 108px;
+  }
+
+  .form__submit {
+    width: 200px;
+    height: 48px;
+    padding: 4px 4px;
+    text-align: center;
+  }
+
+  .image__man {
+    position: absolute;
+    right: 63px;
+    bottom: 0px;
+    width: 532px;
+    height: 905px;
+  }
+}
+  
+
+
+
+
+
+
